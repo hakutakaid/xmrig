@@ -57,7 +57,7 @@ static const option options[] = {
     { "config",                1, nullptr, IConfig::ConfigKey             },
     { "cpu-affinity",          1, nullptr, IConfig::CPUAffinityKey        },
     { "cpu-priority",          1, nullptr, IConfig::CPUPriorityKey        },
-    { "donate-level",          1, nullptr, IConfig::DonateLevelKey        },
+    { "donate-level",          0, nullptr, IConfig::DonateLevelKey        },
     { "donate-over-proxy",     1, nullptr, IConfig::ProxyDonateKey        },
     { "dry-run",               0, nullptr, IConfig::DryRunKey             },
     { "keepalive",             0, nullptr, IConfig::KeepAliveKey          },
